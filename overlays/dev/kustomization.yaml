@@ -8,7 +8,7 @@ namePrefix: dev-
 
 images:
   - name: lexmarkkubernetes/db_microservice
-    newTag: latest-dev  # Use a development-specific image tag
+    newTag: latest  # Use a development-specific image tag
 
 patches:
   - target:
