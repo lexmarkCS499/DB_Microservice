@@ -4,8 +4,6 @@ kind: Kustomization
 resources:
   - ../../base
 
-namePrefix: dev-
-
 images:
   - name: lexmarkkubernetes/db_microservice
     newTag: latest  # Use a development-specific image tag
