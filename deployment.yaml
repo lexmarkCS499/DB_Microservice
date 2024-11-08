@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongo-db
-  namespace: default  # Change to your desired namespace if needed
+  # namespace: default  # Change to your desired namespace if needed
 spec:
   replicas: 1  # Number of MongoDB instances to run
   selector:
