@@ -1,0 +1,13 @@
+# kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# List the resource files
+resources:
+  - deployment.yaml
+  - mongo-pvc.yaml
+  - service-mongo.yaml
+
+# Optional: Add common labels or other configurations
+commonLabels:
+  app: mongo-db
