@@ -4,7 +4,7 @@ metadata:
   name: mongo-db
   # namespace: default  # Change to your desired namespace if needed
 spec:
-  replicas: 2  # Number of MongoDB instances to run
+  replicas: 1  # Number of MongoDB instances to run
   selector:
     matchLabels:
       app: mongo-db
